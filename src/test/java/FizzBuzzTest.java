@@ -8,5 +8,7 @@ public class FizzBuzzTest {
     public void test() {
         assertThat(FizzBuzz.justDoIt(3)).isEqualTo("Fizz");
         assertThat(FizzBuzz.justDoIt(5)).isEqualTo("Buzz");
+        assertThat(FizzBuzz.justDoIt(15)).isEqualTo("FizzBuzz");
+        assertThat(FizzBuzz.justDoIt(17)).isEqualTo("17");
     }
 }
